@@ -63,7 +63,7 @@ You are given a program that receives as input a number that represents the heig
 <p><b>Sample Output:</b>new record<p>
   </p>
   <p>
-   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Решение</p> 
+   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
     <pre>
     var height = parseFloat(readLine(), 10)
