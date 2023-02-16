@@ -8,14 +8,12 @@
     <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
     Task. You need to plan a road trip. You are traveling at an average speed of 40 miles an hour.
 Given a distance in miles as input (the code to take input is already present), output to the console the time it will take you to cover it in minutes.
-Sample Input:
-150
-Sample Output:
-225
-Explanation: It will take 150/40 = 3.75 hours to cover the distance, which is equivalent to 3.75*60 = 225 minutes.
+  <p><b>Sample Input:</b>150</p>
+<p><b>Sample Output:</b>225</p>
+<p><b>Explanation:</b>It will take 150/40 = 3.75 hours to cover the distance, which is equivalent to 3.75*60 = 225 minutes.</p>
   </p>
  <p>
-   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Решение</p> 
+   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
     <pre>
     function main() {
@@ -42,7 +40,7 @@ Complete the code to output "vacation", if the given month is August. Don't outp
     Sample Output <b>vacation</b>
   </p>
   <p>
-   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Решение</p> 
+   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
     <pre>
     var month = readLine()
