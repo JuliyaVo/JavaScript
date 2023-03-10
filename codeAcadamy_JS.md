@@ -24,3 +24,16 @@ fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
     </pre>
   </div>
+
+  <div align=left>
+  <h3>Project 2. Dog Years.</h3>
+  <p>
+    <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
+    Task. 
+    
+   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+ 
+    </pre>
+  </div>
