@@ -13,7 +13,7 @@ With our knowledge of JavaScript, let’s convert Kelvin to Celsius, then to Fah
    <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
     <pre>
-    // this is the today's forecast in Kelvin
+ // this is the today's forecast in Kelvin
 const kelvin = 293;
 // this is the today's forecast in Celsius
 let celsius = kelvin - 273;
