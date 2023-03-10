@@ -53,3 +53,68 @@ let myName = 'Julia'.toLowerCase();
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
     </pre>
   </div>
+  
+  <div align=left>
+  <h1>II. Conditionals</h1>
+  </div>
+ <div align=left>
+  <h3>Project 1. Magic Eight Ball.</h3>
+  <p>
+    <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
+    Task. The user will be able to input a question, then our program will output a random fortune.
+    <ol>
+      <li>In the first line of the program, define a variable called userName that is set to an empty string. If the user wants, they can enter their name in between the quotation marks.</li>
+      <li>Below this variable, create a ternary expression that decides what to do if the user enters a name or not. If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console. Otherwise, simply log Hello!.</li>
+      <li>Create a variable named userQuestion. The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.</li>
+      <li>Write a console.log() for the userQuestion, stating what was asked. You can include the user’s name in the console.log() statement, if you wish!</li>
+      <li>We need to generate a random number between 0 and 7.
+
+Create another variable, and name it randomNumber. Set it equal to this expression, which uses two methods (Math.floor() and Math.random()) from the Math library.</li>
+      <li>Create one more variable named eightBall, and set it equal to an empty string. We will save a value to this variable in the next steps, depending on the value of randomNumber.</li>
+      <li>We need to create a control flow that takes in the randomNumber we made in step 5, and then assigns eightBall to a reply that a Magic Eight Ball would return. Think about utilizing if/else or switch statements.</li>
+      <li>
+Write a console.log() to print the Magic Eight Ball’s answer, the value of the eightBall variable.</li>
+<img src="https://content.codecademy.com/projects/introduction-to-javascript/learn-javascript-introduction/kelvin-weather/Kelvin%20Thermometers.svg">  
+ <p>
+   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+ let userName = '';
+userName ? console.log ('Hello!') : console.log (`Hello, ${userName}!`);
+const userQuestion = 'Please, answer my quastion';
+console.log(userQuestion);
+console.log(`${userName} asked: ${userQuestion}`);
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = '';
+switch (randomNumber) {
+  case 0:
+  eightBall = 'It is certain';
+  break;
+  case 1:
+  eightBall = 'It is decidedly so';
+  break;
+  case 2:
+  eightBall = 'Reply hazy try again';
+  break;
+  case 3:
+  eightBall = 'Cannot predict now';
+  break;
+  case 4:
+  eightBall = 'Do not count on it';
+  break;
+  case 5:
+  eightBall = 'My sources say no';
+  break;
+  case 6:
+  eightBall = 'Outlook not so good';
+  break;
+  case 7:
+  eightBall = 'Signs point to yes';
+  break;
+  case 8:
+  eightBall = 'Not very probable';
+  break;
+}
+console.log(eightBall);
+    </pre>
+  </div>
