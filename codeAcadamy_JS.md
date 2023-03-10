@@ -8,7 +8,7 @@
     Task. Deep in his mountain-side meteorology lab, the mad scientist Kelvin has mastered weather prediction.
 Recently, Kelvin began publishing his weather forecasts on his website. However there’s a problem: All of his forecasts describe the temperature in Kelvin.
 With our knowledge of JavaScript, let’s convert Kelvin to Celsius, then to Fahrenheit.
-<img src="https://content.codecademy.com/projects/introduction-to-javascript/learn-javascript-introduction/kelvin-weather/Kelvin%20Thermometers.svg" width=50 heigh=50>  
+<img src="https://content.codecademy.com/projects/introduction-to-javascript/learn-javascript-introduction/kelvin-weather/Kelvin%20Thermometers.svg" width=100 heigh=100>  
  <p>
    <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
