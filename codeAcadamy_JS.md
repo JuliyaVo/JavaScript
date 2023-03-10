@@ -74,7 +74,6 @@ Create another variable, and name it randomNumber. Set it equal to this expressi
       <li>We need to create a control flow that takes in the randomNumber we made in step 5, and then assigns eightBall to a reply that a Magic Eight Ball would return. Think about utilizing if/else or switch statements.</li>
       <li>
 Write a console.log() to print the Magic Eight Ball’s answer, the value of the eightBall variable.</li>
-<img src="https://content.codecademy.com/projects/introduction-to-javascript/learn-javascript-introduction/kelvin-weather/Kelvin%20Thermometers.svg">  
  <p>
    <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
