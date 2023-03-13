@@ -125,21 +125,22 @@ console.log(eightBall);
       <img src="https://content.codecademy.com/projects/introduction-to-javascript/learn-javascript-control-flow/race-day/raceday-timeline.svg">
      <p>Here’s how our registration works. There are adult runners (over 18 years of age) and youth runners (under 18 years of age). They can register early or late. Runners are assigned a race number and start time based on their age and registration.</p>
       <p>Race number:</p>
-      <ol>
+      <ul>
         <li>Early adults receive a race number at or above 1000.</li>
         <li>All others receive a number below 1000.</li>
-      </ol>
+      </ul>
       <p>Start time:</p>
-      <ol>
+      <ul>
         <li>Adult registrants run at 9:30 am or 11:00 am.</li>
         <li>Early adults run at 9:30 am.</li>
         <li>Late adults run at 11:00 am.</li>
         <li>Youth registrants run at 12:30 pm (regardless of registration).</li>
+        </ul>
 <p>But we didn’t plan for runners that are exactly 18! We’ll handle that by the end of the project.</p>
    <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
     <pre>
-    let raceNumber = Math.floor(Math.random() * 1000);
+let raceNumber = Math.floor(Math.random() * 1000);
 let registerTime = true; // variable that indicates whether a runner registered early or not. Early - true, later - false.
 let runnerAge = 27;
 if (runnerAge > 18 && registerTime === true){
