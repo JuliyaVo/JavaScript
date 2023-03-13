@@ -117,3 +117,46 @@ switch (randomNumber) {
 console.log(eightBall);
     </pre>
   </div>
+      
+      <h3>Project 2. Race Day.</h3>
+  <p>
+    <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
+    Task. Codecademy’s annual race is just around the corner! This year, we have a lot of participants. You have been hired to write a program that will register runners for the race and give them instructions on race day.
+      <p>As a timeline, registration would look like this:</p>
+      <img src="https://content.codecademy.com/projects/introduction-to-javascript/learn-javascript-control-flow/race-day/raceday-timeline.svg">
+     <p>Here’s how our registration works. There are adult runners (over 18 years of age) and youth runners (under 18 years of age). They can register early or late. Runners are assigned a race number and start time based on their age and registration.</p>
+      <p>Race number:</p>
+      <ol>
+        <li>Early adults receive a race number at or above 1000.</li>
+        <li>All others receive a number below 1000.</li>
+      </ol>
+      <p>Start time:</p>
+      <ol>
+        <li>Adult registrants run at 9:30 am or 11:00 am.</li>
+        <li>Early adults run at 9:30 am.</li>
+        <li>Late adults run at 11:00 am.</li>
+        <li>Youth registrants run at 12:30 pm (regardless of registration).</li>
+<p>But we didn’t plan for runners that are exactly 18! We’ll handle that by the end of the project.</p>
+   <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+    let raceNumber = Math.floor(Math.random() * 1000);
+let registerTime = true; // variable that indicates whether a runner registered early or not. Early - true, later - false.
+let runnerAge = 27;
+if (runnerAge > 18 && registerTime === true){
+raceNumber += 1000;
+}
+if (runnerAge > 18 && registerTime === true){
+console.log (`You will race at 9:30 am. Your race number ${raceNumber}`);
+}
+else if (runnerAge > 18 && registerTime !== true){
+console.log (`You will race at 11:00 am. Your race number ${raceNumber}`);
+}
+else if (runnerAge < 18) {
+console.log (`You will race at 12:30 am. Your race number ${raceNumber}`);
+}
+else if (runnerAge = 18) {
+  console.log ("You should see the registration desk.");
+}
+    </pre>
+      </div>
