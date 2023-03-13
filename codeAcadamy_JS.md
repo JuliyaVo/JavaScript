@@ -117,9 +117,8 @@ switch (randomNumber) {
 console.log(eightBall);
     </pre>
   </div>
-      
-      <h3>Project 2. Race Day.</h3>
-  <p>
+      <div align=left>
+        <h3>Project 2. Race Day.</h3>
     <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
     Task. Codecademy’s annual race is just around the corner! This year, we have a lot of participants. You have been hired to write a program that will register runners for the race and give them instructions on race day.
       <p>As a timeline, registration would look like this:</p>
