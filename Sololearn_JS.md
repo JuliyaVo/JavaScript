@@ -45,8 +45,7 @@ console.log ("vacation");
   </div>
   <h3>15.2. The if else Statement Practice</h3>
   <h5>Set A World Record</h5>
-  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task</p>
-    The current world record for high jumping is 2.45 meters. You are given a program that receives as input a number that represents the height of the jump.
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. The current world record for high jumping is 2.45 meters. You are given a program that receives as input a number that represents the height of the jump.
 <p>Complete the code to:</p>
 <ol>
   <li>output to the console "new record" if the number is more than 2.45</li>
@@ -68,11 +67,9 @@ else {
 }
     </pre>
   </div>
-  
   <h3>16.2. The if else Statement Practice</h3>
   <h5>Exam Results</h5>
-  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task</p>
-<p>Тhe result of an exam will be determined as follows։</p>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task.Тhe result of an exam will be determined as follows։</p>
 <p>If the score is</p>
 <p><b>88 and above</b> => excellent</p>
 <p><b>40-87</b> => good</p>
@@ -92,6 +89,48 @@ else if (score >=40 && score <88){
 else {
     console.log("fail");
 }
+    </pre>
+  </div>
+  
+  
+  
+  
+  <h3>17.2. The Switch Statement Practice</h3>
+  <h5>Dark Them</h5>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task.The user can choose the color theme for the browser:</p>
+  <ol>
+    <li>Light</li>
+    <li>Dark</li>
+    <li>Nocturne</li>
+    <li>Terminal</li>
+    <li>Indigo</li>
+  </ol>
+<p>You are given a program that takes the number as input. Complete the program so that it will output to the console the theme according to input number.</p>
+  <p><b>Sample Input</b></p>
+  <p>2</p>
+  <p><b>Sample Output</b></p>
+  <p>Dark</p>
+  <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+    function main() {
+    var themeNumber = parseInt(readLine(), 10)
+    switch (themeNumber){
+        case 1:
+        console.log("Light");
+        break;
+        case 2:
+        console.log("Dark");
+        break;
+        case 3:
+        console.log("Nocturne");
+        break;
+        case 4:
+        console.log("Terminal");
+        break;
+        case 5:
+        console.log("Indigo");
+    }
     </pre>
   </div>
   
