@@ -29,11 +29,7 @@ Given a distance in miles as input (the code to take input is already present), 
  <div align=left>
   <h3>14.2. The if Statement Practice</h3>
   <h5>Vacation Month</h5>
-  <p>
-    <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
-    You are planning a vacation in August.
-You are given a program that takes the month as input.
-<p>Task. Complete the code to output "vacation", if the given month is August. Don't output anything otherwise.</p>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. You are planning a vacation in August. You are given a program that takes the month as input.Complete the code to output "vacation", if the given month is August. Don't output anything otherwise.</p>
   <p><b>Sample Input:</b>August</p>
   <p><b>Sample Output:</b>vacation</p>
   </p>
