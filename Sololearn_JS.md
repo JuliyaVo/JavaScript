@@ -76,6 +76,35 @@ else {
     </pre>
   </div>
   
+  <h3>16.2. The if else Statement Practice</h3>
+  <h5>Exam Results</h5>
+  <p>
+    <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
+<p>Task</p>
+<p>Тhe result of an exam will be determined as follows։</p>
+<p>If the score is</p>
+<p><b>88 and above</b> => excellent</p>
+<p><b>40-87</b> => good</p>
+<p><b>0-39</b> => fail</p>
+<p>You are given a program that takes the score as input.</p>
+<p>Complete the code to output the corresponding result (excellent, good, fail) to the console.</p>
+<img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+    var score = parseInt(readLine(), 10)
+if (score >=88){
+    console.log("excellent");
+}
+else if (score >=40 && score <88){
+    console.log("good");
+}
+else {
+    console.log("fail");
+}
+    </pre>
+  </div>
+  
+  
   
   
     
