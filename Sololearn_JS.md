@@ -49,11 +49,8 @@ console.log ("vacation");
   </div>
   <h3>15.2. The if else Statement Practice</h3>
   <h5>Set A World Record</h5>
-  <p>
-    <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
-    The current world record for high jumping is 2.45 meters.
-You are given a program that receives as input a number that represents the height of the jump.
-<p>Task</p>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task</p>
+    The current world record for high jumping is 2.45 meters. You are given a program that receives as input a number that represents the height of the jump.
 <p>Complete the code to:</p>
 <ol>
   <li>output to the console "new record" if the number is more than 2.45</li>
@@ -78,9 +75,7 @@ else {
   
   <h3>16.2. The if else Statement Practice</h3>
   <h5>Exam Results</h5>
-  <p>
-    <img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>
-<p>Task</p>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task</p>
 <p>Тhe result of an exam will be determined as follows։</p>
 <p>If the score is</p>
 <p><b>88 and above</b> => excellent</p>
