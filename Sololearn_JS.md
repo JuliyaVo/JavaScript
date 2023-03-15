@@ -129,10 +129,7 @@ else {
     }
     </pre>
   </div>
-  
-  
-  
-  <h3>19.2. The While Loop Practice</h3>
+   <h3>19.2. The While Loop Practice</h3>
   <h5>Time's Up</h5>
   <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. Write a program-timer, that will take the count of seconds as input and output to the console all the seconds until timer stops.</p>
 <br><b>Sample Input</b></br>
@@ -148,11 +145,24 @@ else {
     <pre>
     function main() {
     var seconds = parseInt(readLine(), 10)
-    while (seconds >=0)
-    {
+    while (seconds >=0){
         console.log (seconds);
         seconds--;
     }
+}
+ </pre>
+  </div> <h3>21.2. The While Loop Practice</h3>
+  <h5>Break and continue</h5>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. Many tall buildings, including hotels, skip the number 13 when numbering floors -- often going from floor 12 to floor 14. It is thought that the number 13 is unlucky.
+Write a program that will number 15 rooms starting from 1, skipping the number 13. Output to the console each room number in separate line.</p>
+  <p><img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+    var countOfRooms = 15;
+for(i=1; i<=16; i=i+1){
+if (i==13)
+continue;
+    console.log (i);
 }
  </pre>
   </div>
