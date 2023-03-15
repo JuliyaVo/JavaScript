@@ -166,6 +166,28 @@ continue;
 }
  </pre>
   </div>
+ </div> <h3>Code Project</h3>
+  <h5>The Snail in the Well</h5>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. The snail climbs up 7 feet each day and slips back 2 feet each night.</p>
+<br>How many days will it take the snail to get out of a well with the given depth?</br>
+<br><b.Sample Input:</b></br>
+<br>31</br>
+<br><b>Sample Output:</b></br>
+<br>6</br>
+<br>Explanation: Let's break down the distance the snail covers each day:</br>
+<br>Day 1: 7-2=5</br>
+<br>Day 2: 5+7-2=10</br>
+<br>Day 3: 10+7-2=15</br>
+<br>Day 4: 15+7-2=20</br>
+<br>Day 5: 20+7-2=25</br>
+<br>Day 6: 25+7=32</br>
+<br>So, on Day 6 the snail will reach 32 feet and get out of the well at day, without slipping back that night.</br>
+<p><img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+  
+ </pre>
+  </div>
   
   
   
