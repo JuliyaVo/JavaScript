@@ -91,10 +91,6 @@ else {
 }
     </pre>
   </div>
-  
-  
-  
-  
   <h3>17.2. The Switch Statement Practice</h3>
   <h5>Dark Them</h5>
   <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task.The user can choose the color theme for the browser:</p>
@@ -132,6 +128,33 @@ else {
         console.log("Indigo");
     }
     </pre>
+  </div>
+  
+  
+  
+  <h3>19.2. The While Loop Practice</h3>
+  <h5>Time's Up</h5>
+  <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. Write a program-timer, that will take the count of seconds as input and output to the console all the seconds until timer stops.</p>
+<p><b>Sample Input</b></p>
+4
+<p><b>Sample Output</b></p>
+4
+3
+2
+1
+0
+  <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+  <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
+    <pre>
+    function main() {
+    var seconds = parseInt(readLine(), 10)
+    while (seconds >=0)
+    {
+        console.log (seconds);
+        seconds--;
+    }
+}
+ </pre>
   </div>
   
   
