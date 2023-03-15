@@ -170,11 +170,11 @@ continue;
   <h5>The Snail in the Well</h5>
   <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. The snail climbs up 7 feet each day and slips back 2 feet each night.</p>
 <br>How many days will it take the snail to get out of a well with the given depth?</br>
-<br><b.Sample Input:</b></br>
+<br><b>Sample Input:</b></br>
 <br>31</br>
 <br><b>Sample Output:</b></br>
 <br>6</br>
-<br>Explanation: Let's break down the distance the snail covers each day:</br>
+<br><b>Explanation:</b> Let's break down the distance the snail covers each day:</br>
 <br>Day 1: 7-2=5</br>
 <br>Day 2: 5+7-2=10</br>
 <br>Day 3: 10+7-2=15</br>
