@@ -135,15 +135,15 @@ else {
   <h3>19.2. The While Loop Practice</h3>
   <h5>Time's Up</h5>
   <p><img src="https://cdn-icons-png.flaticon.com/512/3524/3524335.png" width=20 heigh=20>Task. Write a program-timer, that will take the count of seconds as input and output to the console all the seconds until timer stops.</p>
-<p><b>Sample Input</b></p>
-4
-<p><b>Sample Output</b></p>
-4
-3
-2
-1
-0
-  <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
+<br><b>Sample Input</b></br>
+<br>4</br>
+<br><b>Sample Output</b></br>
+<br>4</br>
+<br>3</br>
+<br>2</br>
+<br>1</br>
+<br>0</br>
+  <p><img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>Solution:</p> 
   <div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir=auto>
     <pre>
     function main() {
